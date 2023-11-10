@@ -1,0 +1,62 @@
+/* Sneakers Overview */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.sneaker__card {
+    display: flex;
+    flex-direction: column;
+
+    color: #121723;
+    border-radius: 12px;
+    max-width: 370px;
+    box-sizing: border-box;
+}
+
+.sneaker__container a {
+    text-decoration: none;
+}
+
+.sneaker__card img {
+    max-width: 370px;
+    background-color: #fff;
+    border-radius: 12px 12px 0 0;
+    height: 256px;
+}
+
+.sneaker {
+    background-color: #fff;
+    border-radius: 0 0 12px 12px;
+    padding: 24px;
+}
+
+.sneaker h3 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.sneaker p {
+    font-size: 20px;
+}
+
+/* ANIMATIONS */
+.sneaker__detail {
+    text-decoration: none;
+
+    transition: transform .25s ease-in-out;
+}
+
+.sneaker__detail:where(:hover, :focus){
+    transform: translateY(-10px);
+}
+
+.sneaker__detail .sneaker__card {
+    transition: box-shadow .25s ease-in-out;
+}
+
+.sneaker__detail:where(:hover, :focus) .sneaker__card {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
