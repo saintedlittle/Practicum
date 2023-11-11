@@ -14,36 +14,3 @@ main h2 {
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
 }
-
-@media all and (width <= 428px) {
-    .main-wrapper {
-        max-width: 343px;
-        margin: 0 auto;
-    }
-
-    main h2 {
-        font-size: 32px;
-        font-weight: 700;
-        line-height: 100%;
-    }
-
-    .main-container {
-        grid-template-columns: 1fr;
-    }
-
-    .sneaker {
-        width: 100%;
-    }
-
-    .sneaker h3 {
-        font-size: 20px;
-        font-weight: 700;
-        margin-bottom: 12px;
-    }
-
-    .sneaker p {
-        font-size: 14px;
-        font-weight: 400;
-    }
-
-}

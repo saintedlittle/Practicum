@@ -65,7 +65,7 @@
 	font-weight: 400;
 }
 
-@media all and (width <= 810px) {
+@media all and (width <= 428px) {
 	.sneaker_info {
 		grid-template-rows: repeat(5, auto);
 		grid-template-columns: 1fr;

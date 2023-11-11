@@ -45,15 +45,3 @@ body {
 	cursor: pointer;
 	width: 240px;
 }
-
-@media all and (width <= 428px) {
-	.links {
-		gap: 24px;
-	}
-
-	.link {
-		font-size: 20px;
-		font-weight: 700;
-	}
-
-}
