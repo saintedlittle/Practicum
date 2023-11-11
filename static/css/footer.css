@@ -23,7 +23,7 @@ footer .logo {
     color: white;
 }
 
-footer nav ul {
+footer .links {
     display: flex;
     gap: 24px;
     color: white;

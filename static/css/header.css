@@ -14,11 +14,6 @@ header {
     max-width: 1160px;
 }
 
-header nav ul {
-    display: flex;
-    gap: 24px;
-}
-
 .header .link:hover {
     opacity: 0.6;
 }
