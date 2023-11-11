@@ -43,3 +43,18 @@ footer .link:hover {
     color: white;
     font-size: 16px;
 }
+
+@media all and (width <= 810px) {
+    .footer-container {
+        max-width: 343px;
+    }
+
+    .footer-container .info {
+        flex-direction: column;
+    }
+
+    .footer-container .logo {
+        width: 300px;
+        margin-bottom: 32px;
+    }
+}

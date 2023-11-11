@@ -22,3 +22,19 @@ header {
     cursor: pointer;
     width: 240px;
 }
+
+@media all and (width <= 810px) {
+    .header {
+        padding: 24px;
+    }
+
+    .header-container {
+        flex-direction: column;
+    }
+
+    .header-container .logo {
+        width: 215px;
+        margin-bottom: 24px;
+    }
+
+}
