@@ -46,7 +46,7 @@ body {
 	width: 240px;
 }
 
-@media all and (width <= 810px) {
+@media all and (width <= 428px) {
 	.links {
 		gap: 24px;
 	}

@@ -44,7 +44,7 @@ footer .link:hover {
     font-size: 16px;
 }
 
-@media all and (width <= 810px) {
+@media all and (width <= 428px) {
     .footer-container {
         max-width: 343px;
     }

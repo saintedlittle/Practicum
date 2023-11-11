@@ -15,7 +15,7 @@ main h2 {
     gap: 24px;
 }
 
-@media all and (width <= 810px) {
+@media all and (width <= 428px) {
     .main-wrapper {
         max-width: 343px;
         margin: 0 auto;
