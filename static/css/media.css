@@ -65,13 +65,16 @@
     }
 }
 
-@media all and (width >= 810px) and (device-width < 1080) {
+@media screen and (width > 428px) and (width <= 1080px) {
     .header {
         padding: 24px;
     }
 
     .header-container {
-        flex-direction: column;
+        padding: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .header-container .logo {
@@ -100,7 +103,10 @@
     }
 
     .main-container {
-        grid-template-columns: 1fr;
+        /*grid-template-columns: 1fr;*/
+        grid-template-columns: 70% 70%;
+        /* Будет создано 3 ряда */
+        grid-template-rows: 70% 70%;
     }
 
     .sneaker {
