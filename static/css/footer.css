@@ -1,42 +1,45 @@
 footer {
-    background: #121723;
-    padding: 32px 0 24px;
     margin-top: 25px;
+    width: 100vw;
+    background-color: var(--footer-color);
 }
 
-.footer__content {
+.footer-container {
+    margin: 0 auto;
+    max-width: 1160px;
+}
+
+footer .info {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 30px 0;
+    border-bottom: 1px solid rgba(230, 232, 236, 0.40);;
 }
 
-.footer__content img {
-    width: 256px;
+footer .logo {
+    font-family: 'Russo One', sans-serif;
+    font-size: 42px;
+    color: white;
 }
 
-.footer__content nav ul{
-    font-family: "Anonymous Pro", sans-serif;
-    font-weight: 700;
+footer nav ul {
     display: flex;
-    font-size: 24px;
     gap: 24px;
-    list-style-type: none;
+    color: white;
 }
 
-.footer__content nav a {
-    color: #fff;
-    text-decoration: none;
+footer .link:hover {
+    opacity: 0.8;
 }
 
-.footer__devider {
-    background: #676B73;
-    height: 1px;
-    margin: 32px auto 18px;
+.law-info {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
 }
 
-.footer__copyright {
-    color: #a1a6b4;
-    text-align: center;
-    font-weight: 700;
+.lawInfo {
+    color: white;
     font-size: 16px;
 }

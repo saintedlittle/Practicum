@@ -1,0 +1,16 @@
+main h2 {
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+.main-wrapper {
+    margin: 0 auto;
+    max-width: 1160px;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}

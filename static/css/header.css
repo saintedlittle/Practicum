@@ -1,29 +1,29 @@
 header {
-    background: #fff;
-    padding: 30px 0 16px;
-    border-bottom: solid 1px #676B73;
+    background-color: white;
+    padding: 20px 0;
+    margin-bottom: 25px;
+    width: 100vw;
+    border-bottom: 1px solid #a1a6b4;
 }
 
-.header__content {
+.header-container {
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1160px;
 }
 
-.header__content img {
-    width: 256px;
-}
-
-.header__content nav ul {
-    font-family: "Anonymous Pro", sans-serif;
-    font-weight: 700;
+header nav ul {
     display: flex;
-    font-size: 24px;
     gap: 24px;
-    list-style-type: none;
 }
 
-.header__content nav ul li a {
-    text-decoration: none;
-    color: #000;
+.header .link:hover {
+    opacity: 0.6;
+}
+
+.header-container img {
+    cursor: pointer;
+    width: 240px;
 }
