@@ -1,4 +1,4 @@
-@media all and (width <= 428px) {
+@media all and (width <= 783px) {
     .header {
         padding: 24px;
     }
@@ -65,21 +65,15 @@
     }
 }
 
-@media screen and (width > 428px) and (width <= 1080px) {
+@media screen and (width > 783px) and (width <= 1080px) {
     .header {
         padding: 24px;
     }
 
     .header-container {
-        padding: 24px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+        padding-left: 24px;
+        padding-right: 24px;
 
-    .header-container .logo {
-        width: 215px;
-        margin-bottom: 24px;
     }
 
     .links {
@@ -103,10 +97,13 @@
     }
 
     .main-container {
+        justify-content: center;
         /*grid-template-columns: 1fr;*/
-        grid-template-columns: 70% 70%;
+        grid-template-columns: 70% 70% 70%;
         /* Будет создано 3 ряда */
         grid-template-rows: 70% 70%;
+
+        width: 100%;
     }
 
     .sneaker {
@@ -125,15 +122,8 @@
     }
 
     .footer-container {
-        max-width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
     }
 
-    .footer-container .info {
-        flex-direction: column;
-    }
-
-    .footer-container .logo {
-        width: 300px;
-        margin-bottom: 32px;
-    }
 }
